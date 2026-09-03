@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="Images/testitle.png" alt="My Portfolio" class="my-portfolio-title">
+
+    <img src="Images/notebook.png" alt="Notebook" class="notebook">
+
+
+    <a href="#top" class="back-button" id="backButton">
+        <img src="Images/back-button.png" alt="Back to top">
+    </a>
+
+
+    <div class="button-container" id="mainNav">
+
+        <!--clickable na title-->
+        <a href="index.html" class="nav-title">
+            <img src="Images/testitle.png"
+                 alt="My Portfolio"
+                 class="portfolio-title-nav">
+        </a>
+
+        <div class="nav-buttons">
+
+            <a href="#projects">Projects</a>
+
+            <a href="about.html#about">About Me</a>
+
+            <a href="about.html#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="search-panel" id="projects">
+
+        <input
+             type="text"
+        id="folderSearch"
+        placeholder="Search projects..."
+        autocomplete="off">
+
+    </div>
+
+    <div class="activities" id="projects-list">
+
+        <!-- Activity 1 -->
+        <div class="activity">
+
+            <button
+                class="folder-btn"
+                type="button"
+                aria-label="Open Activity 1"
+                onclick="openEmptyMessage()">
+
+                <img
+                    class="closed-icon"
+                    src="Images/Folder closed.png"
+                    alt="Folder closed">
+
+                <img
+                    class="open-icon"
+                    src="Images/Folder Open.png"
+                    alt="Folder open">
+
+            </button>
+
+            <p>Activity 1</p>
+
+        </div>
+
+
+        <!-- Activity 2 -->
+        <div class="activity">
+
+            <button
+                class="folder-btn"
+                type="button"
+                aria-label="Open Activity 2"
+                onclick="openEmptyMessage()">
+
+                <img
+                    class="closed-icon"
+                    src="Images/Folder closed.png"
+                    alt="Folder closed">
+
+                <img
+                    class="open-icon"
+                    src="Images/Folder Open.png"
+                    alt="Folder open">
+
+            </button>
+
+            <p>Activity 2</p>
+
+        </div>
+
+
+        <!-- Activity 3 -->
+        <div class="activity">
+
+            <button
+                class="folder-btn"
+                type="button"
+                aria-label="Open Activity 3"
+                onclick="openEmptyMessage()">
+
+                <img
+                    class="closed-icon"
+                    src="Images/Folder closed.png"
+                    alt="Folder closed">
+
+                <img
+                    class="open-icon"
+                    src="Images/Folder Open.png"
+                    alt="Folder open">
+
+            </button>
+
+            <p>Activity 3</p>
+
+        </div>
+
+
+        <!-- Activity 4 -->
+        <div class="activity">
+
+            <button
+                class="folder-btn"
+                type="button"
+                aria-label="Open Activity 4"
+                onclick="openEmptyMessage()">
+
+                <img
+                    class="closed-icon"
+                    src="Images/Folder closed.png"
+                    alt="Folder closed">
+
+                <img
+                    class="open-icon"
+                    src="Images/Folder Open.png"
+                    alt="Folder open">
+
+            </button>
+
+            <p>Activity 4</p>
+
+        </div>
+
+
+        <!-- Activity 5 -->
+        <div class="activity">
+
+            <button
+                class="folder-btn"
+                type="button"
+                aria-label="Open Activity 5"
+                onclick="openEmptyMessage()">
+
+                <img
+                    class="closed-icon"
+                    src="Images/Folder closed.png"
+                    alt="Folder closed">
+
+                <img
+                    class="open-icon"
+                    src="Images/Folder Open.png"
+                    alt="Folder open">
+
+            </button>
+
+            <p>Activity 5</p>
+
+        </div>
+
+
+        <!-- Activity 6 -->
+        <div class="activity">
+
+            <button
+                class="folder-btn"
+                type="button"
+                aria-label="Open Activity 6"
+                onclick="openEmptyMessage()">
+
+                <img
+                    class="closed-icon"
+                    src="Images/Folder closed.png"
+                    alt="Folder closed">
+
+                <img
+                    class="open-icon"
+                    src="Images/Folder Open.png"
+                    alt="Folder open">
+
+            </button>
+
+            <p>Activity 6</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="about" id="about">
+
+        
+
+    </div>
+
+
+    <div class="empty-message" id="emptyMessage">
+
+        <div class="message-box">
+
+            <p>Empty Folder!</p>
+
+            <button id="closeMessage">
+                OK
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
